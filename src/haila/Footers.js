@@ -6,7 +6,7 @@ const Footers=()=>{
     <div className='bg-[#01013ae8] h-[110vh] overflow-y-hidden sm:h-[50vh] shadow-2xl font-serif text-white'>1
       <div className="bg-[#01013ae8] font-serif shadow-2xl pt-10 justify-center block bottom-0 sticky pb-16">
         <div className="pt-4">
-          <h1 className="font-boldtext-3xl pb-4 text-center cursor-pointer hover:text-[#04b4fa]"> Haileamlak Waleligne</h1>
+          <h1 className="font-bold text-3xl pb-4 text-center cursor-pointer hover:text-[#04b4fa]"> Haileamlak Waleligne</h1>
           <div className="py-4">
             <ul className="sm:flex flex-col sm:flex-row  items-center justify-center cursor-pointer text-center">
               <li className="px-3 font-bold py-4 sm:py-0 text-lg hover:text-[#cbcb2c]">Home</li>
