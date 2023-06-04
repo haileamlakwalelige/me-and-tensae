@@ -5,7 +5,7 @@ import {FaBars, FaTimes} from 'react-icons/fa';
 const Navbars = () => {
     const [show, setShow]=useState(false);
   return (
-    <div className='pt-0 top-0  font-serif shadow-2xl bg-white'>
+    <div className='pt-0 top-0  font-serif shadow-2xl bg-white overflow-x-hidden'>
      <div className='flex justify-between py-4'>
         <div className='pl-10 font-bold'>
             <h1 className='font-bold text-5xl cursor-pointer hover:text-[#1de3f1] pr-4'>Kingo</h1>
