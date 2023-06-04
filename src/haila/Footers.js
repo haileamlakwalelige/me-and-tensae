@@ -22,7 +22,7 @@ const Footers=()=>{
             <FaInstagram size={60} className="font-bold mx-4 text-black hover:text-[#04b4fa] bg-white rounded-full p-2 h-16 w-16"/>
             <FaLinkedin size={60} className="font-bold mx-4 text-black hover:text-[#04b4fa] bg-white rounded-full p-2 h-16 w-16"/>
           </div>
-          <p className="text-center pt-6 font-mono text-lg">Copyright ©2023 All rights reserved | This Website is made by Haileamalak</p>
+          <p className="text-center pt-6 font-mono text-lg">Copyright ©2023 All rights reserved | This Website is made by Haileamalak Waleligne</p>
         </div>
       </div>
     </div>
