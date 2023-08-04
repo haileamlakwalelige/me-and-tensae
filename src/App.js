@@ -7,6 +7,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from 'react';
 import Service from "./haila/Service";
+import Testimonial from "./haila/Testimonial";
 
 export default function App() {
 
@@ -20,6 +21,7 @@ export default function App() {
       <About />
       <Projects />
       <Service />
+      <Testimonial />
       <Footers />
     </div>
   )
