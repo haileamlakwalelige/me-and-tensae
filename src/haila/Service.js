@@ -5,11 +5,12 @@
 const Service=()=>{
     return(
         <div className="bg-slate-900 font-serif justify-center items-center px-10 py-32">
-        <h1 className="font-bold text-5xl font-serif text-center text-gray-400">My Service</h1>
+        <h1 className="font-bold text-5xl hover:text-blue-600 hover:text-7xl mb-10 duration-500 font-serif text-center text-gray-400">My Service</h1>
             <div className="font-serif grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-center items-center">
             <div className="pt-6 border-2 border-gray-400 p-3 rounded-2xl">
-                <h1 className="hover:text-2xl hover:text-blue-600 text-gray-300 font-bold text-xl font-serif text-center">Front-end Development</h1>
-                <p className="text-gray-400 hover:text-gray-300 text-lg font-serif pt-10  text-start lg:pt-auto">I specialize in creating exceptional<br/>
+                <h1 className="hover:text-2xl duration-500 hover:text-blue-600 text-gray-300 font-bold text-xl font-serif text-center">Front-end Development</h1>
+                <p className="text-gray-400 duration-1000 hover:text-gray-300 hover:text-xl  text-lg font-serif pt-10  text-start lg:pt-auto">
+                I specialize in creating exceptional
                  front-end websites using a variety of tools and languages,
                   including React JS, Next JS, WordPress, and more.
                    With a focus on quality coding practices, I take pride in
@@ -19,8 +20,8 @@ const Service=()=>{
                        that meet and exceed my clients' expectations.</p>
             </div>
             <div className="pt-6 border-2 border-gray-400 p-3 rounded-2xl">
-                <h1  className="hover:text-2xl hover:text-blue-600 text-gray-300 font-bold text-xl font-serif text-center">Back-end Development</h1>
-                <p className="text-gray-400 hover:text-gray-300 text-lg font-serif pt-10 text-start lg:pt-auto">
+                <h1  className="hover:text-2xl duration-500 hover:text-blue-600 text-gray-300 font-bold text-xl font-serif text-center">Back-end Development</h1>
+                <p className="text-gray-400 duration-1000 hover:text-gray-300 hover:text-xl  text-lg font-serif pt-10 text-start lg:pt-auto">
                 I possess extensive experience in developing 
                 robust backend applications that are both reliable
                  and efficient. I specialize in working with Node JS
@@ -34,8 +35,8 @@ const Service=()=>{
                       best possible results. </p>
             </div>
             <div className="pt-6 border-2 border-gray-400 p-3 rounded-2xl">
-                <h1  className="hover:text-2xl hover:text-blue-600 text-gray-300 font-bold text-xl font-serif text-center">Full-Stack Development</h1>
-                <p className="text-gray-400 hover:text-gray-300 text-lg font-serif pt-10  text-start lg:pt-auto">
+                <h1  className="hover:text-2xl duration-500 hover:text-blue-600 text-gray-300 font-bold text-xl font-serif text-center">Full-Stack Development</h1>
+                <p className="text-gray-400 duration-1000 hover:text-gray-300 hover:text-xl  text-lg font-serif pt-10  text-start lg:pt-auto">
                 As a full stack developer, 
                 I possess a unique set of skills that enables
                  me to create essential websites that are both
@@ -51,8 +52,8 @@ const Service=()=>{
                 </p>
             </div>
             <div className="pt-6 border-2 border-gray-400 p-3 rounded-2xl">
-                <h1  className="hover:text-2xl hover:text-blue-600 text-gray-300 font-bold text-xl font-serif text-center">Mobile App Development</h1>
-                <p className="text-gray-400 hover:text-gray-300 text-lg font-serif pt-10  text-start lg:pt-auto">
+                <h1  className="hover:text-2xl duration-500 hover:text-blue-600 text-gray-300 font-bold text-xl font-serif text-center">Mobile App Development</h1>
+                <p className="text-gray-400 duration-1000 hover:text-gray-300 hover:text-xl  text-lg font-serif pt-10  text-start lg:pt-auto">
                 As a skilled developer,
                  I specialize in creating exceptional mobile apps
                   using React Native. With a focus on performance
