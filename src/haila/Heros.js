@@ -16,7 +16,7 @@ const Heros = () => {
      <div className='pt-10 grid lg:grid-cols-2 lg:gap-16 '>
        <div className="md:ml-32 mt-32 flex flex-col items-center" data-aos="fade-down">
         <h1 className="font-bold text-3xl sm:text-5xl ml-3 my-6 text-center hover:text-white cursor-pointer">I'M Haileamalak Waleligne</h1>
-        <h2 className="font-bold text-2xl sm:text-4xl text-green-500 ml-10 mb-6">Web Developer</h2>
+        <h2 className="font-bold text-2xl sm:text-4xl text-green-500 ml-10 mb-6">Software Developer</h2>
         <p className='text-xl text-[#1ccde4] text-center'>Embrace your creativity as it is a valued skill in any field, <br/> 
         allowing you to bring a unique perspective and <br /> innovative solutions to 
         the task at hand.</p>
