@@ -3,7 +3,7 @@ import {FaFacebook, FaTwitter, FaInstagram, FaLinkedin} from 'react-icons/fa';
 
 const Footers=()=>{
   return(
-    <div className='bg-[#01013ae8] h-[110vh] overflow-y-hidden sm:h-[50vh] shadow-2xl font-serif text-white'>1
+    <div className='bg-[#01013ae8] h-[110vh] overflow-y-hidden sm:h-[50vh] shadow-2xl font-serif text-white'>
       <div className="bg-[#01013ae8] font-serif shadow-2xl pt-10 justify-center block bottom-0 sticky pb-16">
         <div className="pt-4">
           <h1 className="font-bold text-3xl pb-4 text-center cursor-pointer hover:text-[#04b4fa]"> Haileamlak Waleligne</h1>

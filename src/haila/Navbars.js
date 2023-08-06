@@ -5,13 +5,13 @@ import {FaBars, FaTimes} from 'react-icons/fa';
 const Navbars = () => {
     const [show, setShow]=useState(false);
   return (
-    <div className='pt-0 top-0  font-serif shadow-2xl bg-white overflow-x-hidden'>
+    <div className='pt-0 top-0  font-serif shadow-2xl bg-white'>
      <div className='flex justify-between py-4'>
         <div className='pl-10 font-bold'>
             <h1 className='font-bold text-5xl cursor-pointer hover:text-[#1de3f1] pr-4'>Kingo</h1>
         </div>
         
-        <div className="pt-3 md:flex hidden overflow-auto">
+        <div className="pt-3 md:flex hidden ">
             <ul className='flex pr-10'>
                 <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
                 <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>About</li>
@@ -20,7 +20,7 @@ const Navbars = () => {
                 <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Contact</li>
             </ul>
         </div> {show ? (
-            <div className="pt-3 mt-32 -ml-32  md:hidden block">
+            <div className="pt-3 mt-32 -ml-32  md:hidden block overflow-scroll">
             <ul className='block pr-10'>
                 <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
                 <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>About</li>
