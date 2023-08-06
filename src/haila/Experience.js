@@ -8,8 +8,8 @@ const Experience=()=>{
             <div className='text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, in Ethiopian Trade and Market Development Office</h1>
                 <p className='text-center py-1'>Debre Markos, july 2022 - oct 2022</p>
-                <div className='flex justify-between px-10 items-center py-5'>
-                    <img src={image} alt="first images" width={200} height={200}/>
+                <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
+                    <img src={image} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>My internship was a phenomenal experience that enabled me to acquire a diverse skill set 
                     and gain a comprehensive understanding of web development. I was able to discern the needs 
                     of users and identify key strategies to enhance website usability.
@@ -19,8 +19,8 @@ const Experience=()=>{
             <div className='text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, in Ethiopian Trade and Market Development Office</h1>
                 <p className='text-center py-1'>Debre Markos, july 2022 - oct 2022</p>
-                <div className='flex justify-between px-10 items-center py-5'>
-                    <img src={image} alt="first images" width={200} height={200}/>
+                <div className='flex justify-between px-10 items-center py-5  lg:flex-row flex-col'>
+                    <img src={image} alt="first images" width={200} height={200}  className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>My internship was a phenomenal experience that enabled me to acquire a diverse skill set 
                     and gain a comprehensive understanding of web development. I was able to discern the needs 
                     of users and identify key strategies to enhance website usability.
@@ -30,8 +30,8 @@ const Experience=()=>{
             <div className='text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, in Ethiopian Trade and Market Development Office</h1>
                 <p className='text-center py-1'>Debre Markos, july 2022 - oct 2022</p>
-                <div className='flex justify-between px-10 items-center py-5'>
-                    <img src={image} alt="first images" width={200} height={200}/>
+                <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
+                    <img src={image} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>My internship was a phenomenal experience that enabled me to acquire a diverse skill set 
                     and gain a comprehensive understanding of web development. I was able to discern the needs 
                     of users and identify key strategies to enhance website usability.
@@ -41,8 +41,8 @@ const Experience=()=>{
             <div className='text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, in Ethiopian Trade and Market Development Office</h1>
                 <p className='text-center py-1'>Debre Markos, july 2022 - oct 2022</p>
-                <div className='flex justify-between px-10 items-center py-5'>
-                    <img src={image} alt="first images" width={200} height={200}/>
+                <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
+                    <img src={image} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>My internship was a phenomenal experience that enabled me to acquire a diverse skill set 
                     and gain a comprehensive understanding of web development. I was able to discern the needs 
                     of users and identify key strategies to enhance website usability.
