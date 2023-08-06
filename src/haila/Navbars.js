@@ -20,7 +20,7 @@ const Navbars = () => {
                 <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Contact</li>
             </ul>
         </div> {show ? (
-            <div className="pt-3 mt-32 -ml-32  md:hidden block overflow-scroll">
+            <div className="pt-3 mt-32 -ml-32  md:hidden block">
             <ul className='block pr-10'>
                 <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
                 <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>About</li>
