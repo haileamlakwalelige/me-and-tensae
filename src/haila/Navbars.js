@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React,{useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
 import logo from '../imgs/logo.png';
@@ -14,7 +15,7 @@ const Navbars = () => {
         
         <div className="pt-3 lg:flex hidden ">
             <ul className='flex pr-10'>
-                <a href="#heros">
+                <a href="#">
                   <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
                 </a>
                 <a href="#about">
@@ -36,7 +37,7 @@ const Navbars = () => {
         </div> {show ? (
             <div className="pt-3 mt-32 -ml-32 h-screen  lg:hidden block">
             <ul className='block pr-10'>
-                <a href="#heros">
+                <a href="#">
                   <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
                 </a>
                 <a href="#about">

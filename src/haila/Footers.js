@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {FaFacebook, FaTwitter, FaInstagram, FaLinkedin} from 'react-icons/fa';
 
@@ -9,7 +10,7 @@ const Footers=()=>{
           <h1 className="font-bold text-3xl pb-4 text-center cursor-pointer hover:text-[#04b4fa]"> Haileamlak Waleligne</h1>
           <div className="py-4">
             <ul className="sm:flex flex-col sm:flex-row  items-center justify-center cursor-pointer text-center">
-              <a href="#heros">
+              <a href="#">
               <li className="px-3 font-bold py-4 sm:py-0 text-lg hover:text-[#cbcb2c]">Home</li>
               </a>
               <a href="#about">

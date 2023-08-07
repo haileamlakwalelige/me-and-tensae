@@ -12,7 +12,7 @@ const Heros = () => {
 
   return (
     // eslint-disable-next-line react/style-prop-object
-    <div id="heros" className='bg-slate-900 font-serif shadow-2xl pb-4'>
+    <div  className='bg-slate-900 font-serif shadow-2xl pb-4'>
      <div className='pt-10 grid lg:grid-cols-2 lg:gap-16 '>
        <div className="md:ml-32 mt-32 flex flex-col items-center" data-aos="fade-down">
         <h1 className="font-bold text-3xl sm:text-5xl ml-3 my-6 text-center hover:text-white cursor-pointer">I'M Haileamalak Waleligne</h1>
