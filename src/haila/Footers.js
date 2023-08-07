@@ -9,11 +9,24 @@ const Footers=()=>{
           <h1 className="font-bold text-3xl pb-4 text-center cursor-pointer hover:text-[#04b4fa]"> Haileamlak Waleligne</h1>
           <div className="py-4">
             <ul className="sm:flex flex-col sm:flex-row  items-center justify-center cursor-pointer text-center">
+              <a href="#heros">
               <li className="px-3 font-bold py-4 sm:py-0 text-lg hover:text-[#cbcb2c]">Home</li>
+              </a>
+              <a href="#about">
               <li className="px-3 font-bold py-4 sm:py-0 text-lg hover:text-[#cbcb2c]">About</li>
+              </a>
+              <a href="#projects">
+              <li className="px-3 font-bold py-4 sm:py-0 text-lg hover:text-[#cbcb2c]">Projects</li>
+              </a>
+              <a href="#service">
               <li className="px-3 font-bold py-4 sm:py-0 text-lg hover:text-[#cbcb2c]">Service</li>
+              </a>
+              <a href="#skills">
               <li className="px-3 font-bold py-4 sm:py-0 text-lg hover:text-[#cbcb2c]">Skills</li>
+              </a>
+              <a href="#contact">
               <li className="px-3 font-bold py-4 sm:py-0 text-lg hover:text-[#cbcb2c]">Contact</li>
+              </a>
             </ul>
           </div>
           <div className="flex justify-center">

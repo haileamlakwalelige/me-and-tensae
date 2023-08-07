@@ -9,7 +9,7 @@ const Service=()=>{
     const [mobiles, setMobiles]=useState(false);
 
     return(
-        <div id="#service" className="bg-slate-900 font-serif justify-center items-center px-10 py-32">
+        <div id="service" className="bg-slate-900 font-serif justify-center items-center px-10 py-32">
         <h1 className="font-bold text-5xl hover:text-blue-600 hover:text-7xl mb-10 duration-500 font-serif text-center text-gray-400">My Service</h1>
             <div className="font-serif grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-center items-center">
             <div className="pt-6 border-2 border-gray-400 p-3 rounded-2xl">
