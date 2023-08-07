@@ -9,6 +9,7 @@ import {useEffect} from 'react';
 import Service from "./haila/Service";
 import Testimonial from "./haila/Testimonial";
 import Experience from "./haila/Experience";
+import Skills from "./haila/Skills";
 
 export default function App() {
 
@@ -23,6 +24,7 @@ export default function App() {
       <Projects />
       <Service />
       <Experience />
+      <Skills />
       <Testimonial />
       <Footers />
     </div>
