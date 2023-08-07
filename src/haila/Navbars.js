@@ -14,21 +14,49 @@ const Navbars = () => {
         
         <div className="pt-3 lg:flex hidden ">
             <ul className='flex pr-10'>
-                <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
+                <a href="#heros">
+                  <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
+                </a>
+                <a href="#about">
                 <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>About</li>
-                <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Service</li>
+                </a>
+                <a href="#projects">
+                  <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Projects</li>
+                </a>
+                <a href="#service">
+                  <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Service</li>
+                </a>
+                <a href="#skills">
                 <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Skills</li>
+                </a>
+                <a href="#contact">
                 <li className='font-bold text-xl px-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Contact</li>
+                </a>
             </ul>
         </div> {show ? (
             <div className="pt-3 mt-32 -ml-32 h-screen  lg:hidden block">
             <ul className='block pr-10'>
-                <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
-                <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>About</li>
+                <a href="#heros">
+                  <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Home</li>
+                </a>
+                <a href="#about">
+                  <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>About</li>
+                </a>
+                <a href="#projects">
+                <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Projects</li>
+                </a>
+                <a href="#service">
                 <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Service</li>
+                </a>
+                <a href="#skills">
                 <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Skills</li>
-                <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Contact</li>
-                <h1 className='-ml-10 bg-green-500 m-4 w-32 h-10 text-center rounded-lg pt-2 font-bold text-lg hover:bg-[#cbcb2c] text-red hover:text-green-500'>Get Start</h1>
+                </a>
+                <a href="#contact">
+                   <li className='font-bold text-xl py-3 hover:text-[#cbcb2c] hover:border-b-4 border-green-500 duration-300 ease-linear cursor-pointer'>Contact</li>
+                </a>
+                <a href="#contact">
+                  <h1 className='-ml-10 bg-green-500 m-4 w-32 h-10 text-center rounded-lg pt-2 font-bold text-lg hover:bg-[#cbcb2c] text-red hover:text-green-500'>Lets Talk</h1>
+                </a>
             </ul>
         </div>):null}
         
@@ -38,7 +66,9 @@ const Navbars = () => {
         :
         <FaBars className="text-black font-bold text-2xl " />}
         </div>
-            <h1 className='hidden lg:block bg-green-500 m-4 w-32 h-10 text-center rounded-lg pt-2 font-bold text-lg hover:bg-[#cbcb2c] text-black hover:text-green-500'>Get Start</h1>
+          <a href="#contact">
+            <h1 className='hidden lg:block bg-green-500 m-4 w-32 h-10 text-center rounded-lg pt-2 font-bold text-lg hover:bg-[#cbcb2c] text-black hover:text-green-500'>Lets Talk</h1>
+          </a>
         </div>
         </div>
     </div>

@@ -17,10 +17,18 @@ const Footers=()=>{
             </ul>
           </div>
           <div className="flex justify-center">
+            <a href="https://www.facebook.com/profile.php?id=100026113192333" className="cursor-pointer">
             <FaFacebook size={60} className="font-bold mx-4 p-2 text-black hover:text-[#04b4fa] bg-white rounded-full h-16 w-16"/>
+            </a>
+            <a href="https://twitter.com/Haileopia" className="cursor-pointer">
             <FaTwitter size={60} className="font-bold mx-4 text-black hover:text-[#04b4fa] bg-white rounded-full p-2 h-16 w-16"/>
+            </a>
+            <a href="https://www.instagram.com/hailaopia/" className="cursor-pointer">
             <FaInstagram size={60} className="font-bold mx-4 text-black hover:text-[#04b4fa] bg-white rounded-full p-2 h-16 w-16"/>
-            <FaLinkedin size={60} className="font-bold mx-4 text-black hover:text-[#04b4fa] bg-white rounded-full p-2 h-16 w-16"/>
+            </a>
+            <a href="https://www.linkedin.com/in/haileamlak-waleligne/" className="cursor-pointer">
+              <FaLinkedin size={60} className="font-bold mx-4 text-black hover:text-[#04b4fa] bg-white rounded-full p-2 h-16 w-16"/>
+            </a>
           </div>
           <p className="text-center pt-6 font-mono text-lg mb-10">Copyright ©2023 All rights reserved | This Website is made by Haileamalak Waleligne</p>
         </div>

@@ -18,7 +18,7 @@ import 'aos/dist/aos.css';
 
 const Projects = () => {
   return (
-    <div className="font-serif bg-slate-900 overflow-x-hidden">
+    <div id="projects" className="font-serif bg-slate-900 overflow-x-hidden">
     <h1 className="font-bold text-5xl pt-24 sm:pt-60 md:pt-32 pb-10 text-center text-white shadow-2xl scroll-pb-10">My Projects</h1>
         <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-10 pt-4 justify-center md:justify-between px-4 pb-10">
             <div className="hover:transform hover:translate-x-2 hover:-translate-y-2 duration-500 hover:bg-slate-600  h-80 pt-10 rounded-lg bg-white shadow-2xl shadow-black p-3" data-aos="slide-left">
