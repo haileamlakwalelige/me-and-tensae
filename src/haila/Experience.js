@@ -1,4 +1,9 @@
 import image from '../imgs/king.gif'
+import etrade from '../imgs/etrade.png';
+import ehpsa from '../imgs/EHPSA.jpg';
+import axis from '../imgs/axis.png';
+import helder from '../imgs/helder.png';
+import mella from '../imgs/mella.jpg';
 
 
 const Experience=()=>{
@@ -9,7 +14,7 @@ const Experience=()=>{
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Software Developer, Helder Technologies Solution PLC</h1>
                 <p className='text-center py-1'> Addis Ababa, july 01 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
-                    <img src={image} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
+                    <img src={helder} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>
                     I am incredibly fortunate to have had the opportunity to work at Helder,
                      and it has been an extraordinary and fulfilling experience. Not only has 
@@ -27,7 +32,7 @@ const Experience=()=>{
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, Axis Marketing Service</h1>
                 <p className='text-center py-1'> Addis Ababa, july 25 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
-                    <img src={image} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
+                    <img src={axis} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>
                     I had the incredible opportunity to intern at Axis, and it has been an exceptionally 
                     rewarding experience. Not only has it been thoroughly enjoyable, but it has also been 
@@ -43,7 +48,7 @@ const Experience=()=>{
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, EHPSA</h1>
                 <p className='text-center py-1'> Addis Ababa, june 1 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
-                    <img src={image} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
+                    <img src={ehpsa} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>
                     At EHPSA, I am acquiring an incredible set of skills in front-end development. 
                     Working on an amazing website with a multitude of functionalities, 
@@ -58,7 +63,7 @@ const Experience=()=>{
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, in Ethiopian Trade and Market Development Office</h1>
                 <p className='text-center py-1'>Debre Markos, july 2022 - oct 2022</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
-                    <img src={image} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
+                    <img src={etrade} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>My internship was a phenomenal experience that enabled me to acquire a diverse skill set 
                     and gain a comprehensive understanding of web development. I was able to discern the needs 
                     of users and identify key strategies to enhance website usability.
@@ -83,7 +88,7 @@ const Experience=()=>{
                        Addis Ababa Feb 2019 - Present
                 </p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
-                    <img src={image} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
+                    <img src={mella} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
                     <p className='flex justify-center items-center pl-20'>
                     Volunteering for Rotaract Mella, Kids Football Team & Cinema House me to communicate,
                      understand needs & help others. Making a positive impact is fulfilling & gave me a 

@@ -1,4 +1,6 @@
-import image from '../imgs/logo.png';
+import frontend from '../imgs/frontend.png';
+import backend from '../imgs/backend.png';
+import mobile from '../imgs/mobile.png';
 
 
 
@@ -9,7 +11,7 @@ const Skills=()=>{
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10 ">
             <div className="p-10 bg-white hover:text-white hover:bg-gray-700 font-serif rounded-2xl">
                 <div className="flex justify-center items-center">
-                <img src={image} alt="template one" />
+                <img src={frontend} alt="template one" />
                 </div>
                 <h1 className="font-bold text-2xl py-4 text-center text-blue-600">Front-end Development</h1>
                 <p className="font-serif text-lg text-center">For front-end development,
@@ -24,7 +26,7 @@ const Skills=()=>{
             </div>
             <div className="p-10 bg-white hover:text-white hover:bg-gray-700 font-serif rounded-2xl">
                 <div className="flex justify-center items-center">
-                <img src={image} alt="template one" />
+                <img src={backend} alt="template one" />
                 </div>
                 <h1 className="font-bold text-2xl py-4 text-center text-blue-600">Back-end Development</h1>
                 <p className="font-serif text-lg text-center">
@@ -41,7 +43,7 @@ const Skills=()=>{
             </div>
             <div className="p-10 bg-white hover:text-white hover:bg-gray-700 font-serif rounded-2xl">
                 <div className="flex justify-center items-center">
-                <img src={image} alt="template one" />
+                <img src={mobile} alt="template one" />
                 </div>
                 <h1 className="font-bold text-2xl py-4 text-center text-blue-600">Mobile App Development</h1>
                 <p className="font-serif text-lg text-center">
