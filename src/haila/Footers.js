@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {FaFacebook, FaTwitter, FaInstagram, FaLinkedin} from 'react-icons/fa';
+import {ImMail} from 'react-icons/im';
 
 const Footers=()=>{
   return(
@@ -31,6 +32,9 @@ const Footers=()=>{
             </ul>
           </div>
           <div className="flex justify-center">
+            <a href="https://www.haileamlakwaleligne3910@gmail.com">
+              <ImMail size={60} className="font-bold mx-4 p-2 text-black hover:text-[#04b4fa] bg-white rounded-full h-16 w-16"/>
+            </a>
             <a href="https://www.facebook.com/profile.php?id=100026113192333" className="cursor-pointer">
             <FaFacebook size={60} className="font-bold mx-4 p-2 text-black hover:text-[#04b4fa] bg-white rounded-full h-16 w-16"/>
             </a>

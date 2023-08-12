@@ -12,6 +12,7 @@ import Experience from "./haila/Experience";
 import Skills from "./haila/Skills";
 import Contact from "./haila/Contact";
 
+
 export default function App() {
 
   useEffect(()=>{
