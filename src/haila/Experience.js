@@ -15,7 +15,7 @@ const Experience=()=>{
                 <p className='text-center py-1'> Addis Ababa, july 01 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
                     <img src={helder} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
-                    <p className='flex justify-center items-center pl-20'>
+                    <p className='flex justify-center items-center pl-2 xs:pl-4 sm:px-8 md:12 lg:pl-20'>
                     I am incredibly fortunate to have had the opportunity to work at Helder,
                      and it has been an extraordinary and fulfilling experience. Not only has 
                      it been immensely enjoyable, but it has also been a constant source of 
@@ -33,7 +33,7 @@ const Experience=()=>{
                 <p className='text-center py-1'> Addis Ababa, july 25 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
                     <img src={axis} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
-                    <p className='flex justify-center items-center pl-20'>
+                    <p className='flex justify-center items-center pl-2 xs:pl-4 sm:px-8 md:12 lg:pl-20'>
                     I had the incredible opportunity to intern at Axis, and it has been an exceptionally 
                     rewarding experience. Not only has it been thoroughly enjoyable, but it has also been 
                     highly stimulating, allowing me to enhance my front-end skills significantly. 
@@ -49,7 +49,7 @@ const Experience=()=>{
                 <p className='text-center py-1'> Addis Ababa, june 1 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
                     <img src={ehpsa} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
-                    <p className='flex justify-center items-center pl-20'>
+                    <p className='flex justify-center items-center pl-2 xs:pl-4 sm:px-8 md:12 lg:pl-20'>
                     At EHPSA, I am acquiring an incredible set of skills in front-end development. 
                     Working on an amazing website with a multitude of functionalities, 
                     including payment and donation systems, has been truly exhilarating.
@@ -64,7 +64,7 @@ const Experience=()=>{
                 <p className='text-center py-1'>Debre Markos, july 2022 - oct 2022</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
                     <img src={etrade} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
-                    <p className='flex justify-center items-center pl-20'>My internship was a phenomenal experience that enabled me to acquire a diverse skill set 
+                    <p className='flex justify-center items-center pl-2 xs:pl-4 sm:px-8 md:12 lg:pl-20'>My internship was a phenomenal experience that enabled me to acquire a diverse skill set 
                     and gain a comprehensive understanding of web development. I was able to discern the needs 
                     of users and identify key strategies to enhance website usability.
                      As I move forward, I remain committed to performing at my absolute best in all future projects.</p>
@@ -75,7 +75,7 @@ const Experience=()=>{
                 <p className='text-center py-1'>Remote, Virtual</p>
                 <div className='flex justify-between px-10 items-center py-5  lg:flex-row flex-col'>
                     <img src={image} alt="first images" width={200} height={200}  className="lg:my-0 my-10"/>
-                    <p className='flex justify-center items-center pl-20'>
+                    <p className='flex justify-center items-center pl-2 xs:pl-4 sm:px-8 md:12 lg:pl-20'>
                     I specialize in creating exceptional user experiences and have a deep understanding of UX design. 
                     Collaborating with clients to align their vision and ensuring attention to detail on all project 
                     sizes sets me apart as a top-notch front-end developer
@@ -89,7 +89,7 @@ const Experience=()=>{
                 </p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
                     <img src={mella} alt="first images" width={200} height={200} className="lg:my-0 my-10"/>
-                    <p className='flex justify-center items-center pl-20'>
+                    <p className='flex justify-center items-center pl-2 xs:pl-4 sm:px-8 md:12 lg:pl-20'>
                     Volunteering for Rotaract Mella, Kids Football Team & Cinema House me to communicate,
                      understand needs & help others. Making a positive impact is fulfilling & gave me a 
                      passion for serving others, which will help me excel in any role.
