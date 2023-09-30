@@ -13,7 +13,7 @@ const Heros = () => {
     <div className='bg-slate-900 shadow-2xl shadow-gray-400 font-serif shadow-2xl pb-4 overflow-x-hidden'>
       <div className='pt-10 grid lg:grid-cols-5 lg:gap-16 '>
         <div
-          className='md:ml-32 mt-32 flex flex-col col-span-2 items-center'
+          className='md:ml-32 mt-32 flex flex-col text-center col-span-2 items-center'
           data-aos='fade-down'
         >
           <h1 className='font-bold text-3xl sm:text-5xl ml-3 my-6 text-gray-600 text-center hover:text-white cursor-pointer'>
