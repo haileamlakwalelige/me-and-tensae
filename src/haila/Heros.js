@@ -11,9 +11,9 @@ const Heros = () => {
   return (
     // eslint-disable-next-line react/style-prop-object
     <div className='bg-slate-900 shadow-2xl shadow-gray-400 font-serif shadow-2xl pb-4 overflow-x-hidden'>
-      <div className='pt-10 grid lg:grid-cols-5 lg:gap-16 '>
+      <div className='pt-10 grid lg:grid-cols-2 lg:gap-16 '>
         <div
-          className='md:ml-32 mt-32 flex flex-col text-center col-span-2 items-center'
+          className='md:ml-32 mt-32 flex flex-col text-center  items-center'
           data-aos='fade-down'
         >
           <h1 className='font-bold text-3xl sm:text-5xl ml-3 my-6 text-gray-600 text-center hover:text-white cursor-pointer'>
@@ -28,7 +28,7 @@ const Heros = () => {
             to the task at hand.
           </p>
         </div>
-        <div className="col-span-3">
+        <div className="">
           <div
             className=' rounded-full w-full mt-10 grid justify-center opacity-50 '
             data-aos='fade-up'
