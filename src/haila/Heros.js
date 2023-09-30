@@ -10,7 +10,7 @@ const Heros = () => {
 
   return (
     // eslint-disable-next-line react/style-prop-object
-    <div className='bg-slate-900 font-serif shadow-2xl pb-4 overflow-x-hidden'>
+    <div className='bg-slate-900 shadow-2xl shadow-gray-400 font-serif shadow-2xl pb-4 overflow-x-hidden'>
       <div className='pt-10 grid lg:grid-cols-5 lg:gap-16 '>
         <div
           className='md:ml-32 mt-32 flex flex-col col-span-2 items-center'

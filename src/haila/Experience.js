@@ -8,7 +8,7 @@ import mella from '../imgs/mella.jpg';
 
 const Experience=()=>{
     return(
-        <div className="bg-slate-800 py-20  text-white flex font-serif flex-col justify-center items-center">
+        <div className="bg-slate-900 shadow-2xl shadow-gray-400 py-20  text-white flex font-serif flex-col justify-center items-center">
             <h1 className="font-bold text-5xl text-center py-5">My Experiences</h1>
             <div className='py-10 text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Software Developer, Helder Technologies Solution PLC</h1>

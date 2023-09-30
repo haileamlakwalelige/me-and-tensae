@@ -5,7 +5,7 @@ import profile from '../imgs/profile.jpg';
 
 const About=()=>{
     return(
-        <div id="about" className="bg-slate-800 grid grid-cols-1 lg:grid-cols-2 justify-evenly px-3 items-center py-20">
+        <div id="about" className="bg-slate-900 grid grid-cols-1 lg:grid-cols-2 justify-evenly px-3 items-center py-20 shadow-2xl shadow-gray-400">
             <div className="flex justify-center items-center lg:justify-start">
                 <img src={profile} alt="Haileamlak Waleligne" width={500} height={500}  className="rounded-3xl brightness-75 hover:brightness-100"/>
             </div>

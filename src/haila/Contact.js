@@ -5,7 +5,7 @@ const Contact=()=>{
 
 
     return(
-        <div id="contact" className="bg-[#080622] flex flex-col justify-center items-center h-screen text-white">
+        <div id="contact" className="bg-slate-900 shadow-2xl shadow-gray-400 flex flex-col justify-center items-center h-screen text-white">
             <h1 className="font-bold text-5xl text-center py-5 font-serif">Lets Talk</h1>
             <form  className="border-2 border-gray-300 sm:p-10 p-4 rounded-2xl  md:p-30">
                 <div className="flex flex-col lg:flex-row justify-center items-center py-5">

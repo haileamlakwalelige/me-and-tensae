@@ -10,7 +10,7 @@ const Skills=()=>{
     const [back, setBack]=useState(false);
     const [mobiles, setMobiles]=useState(false);
     return(
-        <div id="skills" className="py-24">
+        <div id="skills" className="py-24 bg-slate-900 shadow-2xl shadow-gray-400">
             <h1 className="font-bold text-5xl text-gray-100 py-5 text-center font-serif ">MY Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10 ">
             <div className="p-10 bg-white hover:text-white hover:bg-gray-700 font-serif rounded-2xl">
