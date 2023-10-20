@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React,{useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
-import logo from '../imgs/logo.png';
+import {SiReactos} from 'react-icons/si';
 
 
 const Navbars = () => {
@@ -10,7 +10,7 @@ const Navbars = () => {
     <div className='pt-0 top-0  font-serif shadow-2xl bg-white'>
      <div className='flex justify-between py-4'>
         <div className='pl-10 font-bold'>
-            <img src={logo} alt="Haileamlak Waleligne Logo" />
+            <SiReactos size={50} className='text-slate-900 mt-2'/>
         </div>
         
         <div className="pt-3 lg:flex hidden ">
