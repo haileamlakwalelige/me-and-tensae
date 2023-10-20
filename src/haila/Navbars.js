@@ -10,7 +10,7 @@ const Navbars = () => {
     <div className='pt-0 top-0  font-serif shadow-2xl bg-white'>
      <div className='flex justify-between py-4'>
         <div className='pl-10 font-bold'>
-            <SiReactos size={50} className='text-slate-900 mt-2'/>
+            <SiReactos size={50} className='text-slate-900 mt-2 hover:text-green-500 duration-300 ease-in cursor-pointer'/>
         </div>
         
         <div className="pt-3 lg:flex hidden ">
