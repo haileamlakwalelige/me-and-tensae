@@ -11,6 +11,7 @@ import Testimonial from "./haila/Testimonial";
 import Experience from "./haila/Experience";
 import Skills from "./haila/Skills";
 import Contact from "./haila/Contact";
+import ContactUs from "./haila/ContactUs";
 
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
       <Skills />
       <Testimonial />
       <Contact />
+      <ContactUs />
       <Footers />
     </div>
   )
