@@ -8,9 +8,9 @@ import mella from '../imgs/mella.jpg';
 
 const Experience=()=>{
     return(
-        <div className="bg-slate-900 shadow-2xl shadow-gray-400 py-20  text-white flex font-serif flex-col justify-center items-center">
+        <div className="bg-slate-900 shadow-2xl shadow-gray-400 py-20  text-white flex  flex-col justify-center items-center">
             <h1 className="font-bold text-5xl text-center py-5">My Experiences</h1>
-            <div className='py-10 text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
+            <div className='py-10 text-lg bg-white shadow-2xl my-4  text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Software Developer, Helder Technologies Solution PLC</h1>
                 <p className='text-center py-1'> Addis Ababa, july 01 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
@@ -28,7 +28,7 @@ const Experience=()=>{
                     </p>
                 </div>
                 </div>
-            <div className='py-10 text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
+            <div className='py-10 text-lg bg-white shadow-2xl my-4  text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, Axis Marketing Service</h1>
                 <p className='text-center py-1'> Addis Ababa, july 25 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
@@ -44,7 +44,7 @@ const Experience=()=>{
                     </p>
                 </div>
             </div>
-            <div className='py-10 text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
+            <div className='py-10 text-lg bg-white shadow-2xl my-4  text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, EHPSA</h1>
                 <p className='text-center py-1'> Addis Ababa, june 1 - Present</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
@@ -59,7 +59,7 @@ const Experience=()=>{
                     </p>
                 </div>
             </div>
-            <div className='py-10 text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
+            <div className='py-10 text-lg bg-white shadow-2xl my-4  text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Internship, in Ethiopian Trade and Market Development Office</h1>
                 <p className='text-center py-1'>Debre Markos, july 2022 - oct 2022</p>
                 <div className='flex justify-between px-10 items-center py-5 lg:flex-row flex-col'>
@@ -70,7 +70,7 @@ const Experience=()=>{
                      As I move forward, I remain committed to performing at my absolute best in all future projects.</p>
                 </div>
             </div>
-            <div className='py-10 text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
+            <div className='py-10 text-lg bg-white shadow-2xl my-4  text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center">Freelance </h1>
                 <p className='text-center py-1'>Remote, Virtual</p>
                 <div className='flex justify-between px-10 items-center py-5  lg:flex-row flex-col'>
@@ -82,7 +82,7 @@ const Experience=()=>{
                     </p>
                 </div>
             </div>
-            <div className='py-10 text-lg bg-white shadow-2xl my-4 font-serif text-slate-900 mx-5 shadow-black '>
+            <div className='py-10 text-lg bg-white shadow-2xl my-4  text-slate-900 mx-5 shadow-black '>
                 <h1 className="font-bold text-3xl text-center flex items-center justify-center"> Volunteering Rotaract Mella</h1>
                 <p className='text-center py-1'>
                        Addis Ababa Feb 2019 - Present

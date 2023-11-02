@@ -5,8 +5,8 @@ import {ImMail} from 'react-icons/im';
 
 const Footers=()=>{
   return(
-    <div className='bg-slate-900 pb-1 md:pb-auto overflow-y-hidden sm:h-[52vh] shadow-2xl shadow-gray-400 font-serif text-white'>
-      <div className="bg-slate-900 font-serif shadow-2xl pt-10 justify-center block bottom-0 sticky pb-16">
+    <div className='bg-slate-900 pb-1 md:pb-auto overflow-y-hidden sm:h-[52vh] shadow-2xl shadow-gray-400  text-white'>
+      <div className="bg-slate-900  shadow-2xl pt-10 justify-center block bottom-0 sticky pb-16">
         <div className="pt-4">
           <h1 className="font-bold text-3xl pb-4 text-center cursor-pointer hover:text-[#04b4fa]"> Haileamlak Waleligne</h1>
           <div className="py-4">
